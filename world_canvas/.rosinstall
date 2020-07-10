@@ -1,0 +1,17 @@
+# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
+# UNLESS FOR REMOVING ENTRIES.
+# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
+# USE THE rosinstall TOOL INSTEAD.
+# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
+- git: {local-name: world_canvas, uri: 'https://github.com/corot/world_canvas.git',
+    version: master}
+- git: {local-name: world_canvas_libs, uri: 'https://github.com/corot/world_canvas_libs.git',
+    version: master}
+- git: {local-name: world_canvas_msgs, uri: 'https://github.com/corot/world_canvas_msgs.git',
+    version: master}
+- git: {local-name: world_canvas_tools, uri: 'https://github.com/corot/world_canvas_tools.git',
+    version: master}
+- git: {local-name: turtlebot_simulator, uri: 'https://github.com/turtlebot/turtlebot_simulator.git ',
+    version: experimental}
+- git: {local-name: yocs_msgs, uri: 'https://github.com/yujinrobot/yocs_msgs.git',
+    version: release/0.7-melodic}
